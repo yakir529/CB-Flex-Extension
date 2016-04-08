@@ -1,0 +1,38 @@
+﻿html, body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav,aside,header,footer { 
+    width: 95%; 
+    background-color: lightgrey; 
+    margin: 5px; 
+    border-radius: 3px;
+}
+
+main > img {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+aside, nav {
+    width: 15% !important;
+    height: 200px !important;
+    min-width: 300px;
+    max-width: 15%;
+}
+
+main {
+    width: 55%;
+    min-width: 200px;
+}
+
+.container {
+    width: 95%;
+}
+

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CBFlex</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <script src="js/flexExt.js"></script>
+</head>
+<body data-display="flex" data-align-items="default" data-justify-content="start" data-wrap="wrap_default" data-flex-direction="column">
+    <header>header</header>
+    <div class="container" data-display="flex" data-align-items="center" data-justify-content="space-around" data-wrap="wrap_1280" data-flex-child="0 0 300px">
+        <nav>navigation</nav>
+        <main data-display="flex" data-justify-content="space-around" data-wrap="wrap">
+            <img id="imgA" src="images/picA.jpg">
+            <img id="imgB" src="images/picB.jpg">
+            <img id="imgC" src="images/picC.jpg">
+        </main>
+        <aside>aside</aside>
+    </div>
+    <footer>footer</footer>
+</body>
+</html>
